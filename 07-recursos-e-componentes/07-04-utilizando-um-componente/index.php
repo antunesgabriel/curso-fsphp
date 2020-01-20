@@ -38,7 +38,7 @@ try {
     # Mail server
     $mail->Host = 'smtp.sendgrid.net';
     $mail->Username = 'apikey';
-    $mail->Password = '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';
+    $mail->Password = CONF_MAIL_PASSWORD;
     $mail->Port = 587;
 
     # Destinatary
