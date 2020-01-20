@@ -1,0 +1,29 @@
+{
+    "name": "antunesgabriel/fsphp",
+    "description": "Estudo de php curso Fullstack PHP developer da upinside",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Gabriel Antunes",
+            "email": "antunesgabrielcontato@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Support/Config.php",
+            "source/Support/Helpers.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "~6.1",
+        "league/plates": "v4.0.0-alpha",
+        "coffeecode/uploader": "^1.0"
+    }
+}
