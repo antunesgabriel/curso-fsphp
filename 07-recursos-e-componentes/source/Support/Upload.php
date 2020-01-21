@@ -28,7 +28,7 @@ class Upload
             return null;
         }
 
-        $path = $upload->upload($image, $name, $width);
+        $path = $upload->upload($image, $name, $width, CONF_UPLOAD_IMAGE_QUALY);
 
         return $path;
     }
