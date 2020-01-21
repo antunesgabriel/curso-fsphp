@@ -25,6 +25,7 @@
         "phpmailer/phpmailer": "~6.1",
         "league/plates": "v4.0.0-alpha",
         "coffeecode/uploader": "^1.0",
-        "coffeecode/cropper": "^1.2"
+        "coffeecode/cropper": "^1.2",
+        "coffeecode/optimizer": "^2.0"
     }
 }
