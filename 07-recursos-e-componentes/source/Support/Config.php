@@ -71,3 +71,15 @@ define('CONF_UPLOAD_MEDIA_FOLDER', 'media');
 define('CONF_UPLOAD_CACHE_DIR', CONF_UPLOAD_DIR . '/' . CONF_UPLOAD_IMAGE_FOLDER . '/cache');
 define('CONF_UPLOAD_IMAGE_WIDTH', 2000);
 define('CONF_UPLOAD_IMAGE_QUALY', ['png' => 5, 'jpg' => 75]);
+
+# SITE
+define('CONF_SITE_NAME', 'antunesgabriel');
+define('CONF_SITE_LANG', 'pt_BR');
+define('CONF_SITE_DOMAIN', 'antunesgabriel.com.br');
+
+# SEO
+define('CONF_SEO_SOCIAL_TWITTER_CREATOR', '@gigaoindio'); // TWITTER DO CRIADOR
+define('CONF_SEO_SOCIAL_TWITTER_PUBLISHER', '@gigaoindio'); // TWITTER DA EMPRESA
+define('CONF_SEO_SOCIAL_FACEBOOK_APP', '2913574285329244'); // FACEBOOK APP ID
+define('CONF_SEO_SOCIAL_FACEBOOK_PAGE', 'Gabriel-Antunes-102193508004360'); // PAGINA NO FACEBOOK
+define('CONF_SEO_SOCIAL_FACEBOOK_AUTHOR', 'gabriel.broetto');
